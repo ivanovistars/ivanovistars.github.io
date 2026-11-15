@@ -128,7 +128,7 @@
       margin-top: 48px;
     }
     .showcase-item {
-      margin-bottom: 44px;
+      margin-bottom: 48px;
     }
     .showcase-item h3 {
       color: #ffffff;
@@ -139,7 +139,27 @@
       color: #94a3b8;
       font-size: 14px;
       max-width: 480px;
-      margin: 0 auto 14px auto;
+      margin: 0 auto 18px auto;
+    }
+    .gp-btn {
+      display: inline-block;
+      text-decoration: none;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+    .gp-btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+    .gp-btn img {
+      height: 54px;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .showcase-policy {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 13.5px;
     }
     @media (max-width: 600px) {
       .main-card {
@@ -207,18 +227,26 @@
     <div class="showcase-item">
       <h3>🌧️ Rain Sounds: Sleep Offline</h3>
       <p>Relaxing ambient rain sounds to help you fall asleep faster, focus, or meditate. Works 100% offline.</p>
+      <a class="gp-btn" href="https://play.google.com/store/apps/details?id=com.ivanovistars.rainsounds" target="_blank" rel="noopener noreferrer">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
+      </a>
     </div>
 
     <div class="showcase-item">
       <h3>🧱 Block Maker for Minecraft</h3>
       <p>Create custom 3D blocks, weapons, armor, and food addons for Minecraft PE &amp; Bedrock Edition with one-click export.</p>
-      <a href="privacy-policy-blockmaker.html">View Block Maker Privacy Policy</a>
+      <a class="gp-btn" href="https://play.google.com/store/apps/details?id=com.ivanovistars.blockmaker" target="_blank" rel="noopener noreferrer">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
+      </a>
+      <div>
+        <a class="showcase-policy" href="privacy-policy-blockmaker.html">View Block Maker Privacy Policy</a>
+      </div>
     </div>
 
     <div class="showcase-item">
       <h3>🔥 Symbol Lore: Lava Burn</h3>
       <p>Sort funny cartoon punctuation marks, math symbols, currencies, fruits, and vegetables with voice pronunciation.</p>
-      <a href="privacy-policy-symbol-lore.html">View Symbol Lore Privacy Policy</a>
+      <a class="showcase-policy" href="privacy-policy-symbol-lore.html">View Symbol Lore Privacy Policy</a>
     </div>
   </section>
 </body>
